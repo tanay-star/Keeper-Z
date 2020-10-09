@@ -2,9 +2,11 @@
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
-  padding: 10px;
+  padding: 5px 10px 10px 10px;
   width: 240px;
   margin: 16px;
+  display: flex;
+  flex-direction: column;
   /* float: left; */
 }
 
@@ -17,4 +19,6 @@
 .note p {
   font-size: 1.1em;
   margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
