@@ -2,12 +2,9 @@
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
-  padding: 5px 10px 10px 10px;
-  width: 240px;
+  width: 20%;
   margin: 16px;
-  display: flex;
-  flex-direction: column;
-  /* float: left; */
+  padding: 10px;
 }
 
 .note h5 {
@@ -19,6 +16,6 @@
 .note p {
   font-size: 1.1em;
   margin-bottom: 10px;
-  white-space: pre-wrap;
-  word-wrap: break-word;
+  /* white-space: pre-wrap;
+  word-wrap: break-word; */
 }
